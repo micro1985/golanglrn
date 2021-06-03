@@ -92,7 +92,7 @@ func main() {
 	body, _ := io.ReadAll(content.Body)
 	bodystr := string(body)
 	//fmt.Println(bodystr)
-	//fmt.Println("\n")
 
 	parse_request(bodystr)
+	fmt.Println("\n")
 }
